@@ -1,0 +1,21 @@
+﻿<Item Id="{4738312c-22b8-4e77-9b9c-86bcdcee6635}" Template="Template">
+  <Fields>
+    <Field Name="__Base template" Value="{8CA06D6A-B353-44E8-BC31-B528C7306971}"/>
+    <Field Name="__Standard values" Value="{D305F6D0-753A-49C6-821A-80DCD09438C1}"/>
+  </Fields>
+  
+  <Item Name="Search" Id="{1cae5acb-51dd-48ff-b155-095f4035f90c}" Template="Template section">
+    <Item Name="SearchResultsLimit" Id="{33815197-6029-4010-968e-1165c0e2f4dc}" Template="Template field">
+      <Fields>
+        <Field Name="Type" Value="Single-Line Text"/>
+        <Field Name="Shared" Value="true"/>
+      </Fields>
+    </Item>
+  </Item>
+
+  <Item Id="{D305F6D0-753A-49C6-821A-80DCD09438C1}" Name="__Standard Values" Template="{4738312c-22b8-4e77-9b9c-86bcdcee6635}">
+    <Fields>
+      <Field Name="SearchResultsLimit" Value="10"/>
+    </Fields>
+  </Item>
+</Item>
