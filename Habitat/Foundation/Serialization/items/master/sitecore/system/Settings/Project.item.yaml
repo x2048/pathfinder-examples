@@ -1,0 +1,6 @@
+﻿Item:
+  Id: {c2a1ded2-11ab-42ef-8271-6935c551a962}
+  Template: {a87a00b1-e6db-45ab-8b54-636fec3b5523}
+  - Fields:
+    - Field: __Icon
+      Value: applications/32x32/folder_window.png
