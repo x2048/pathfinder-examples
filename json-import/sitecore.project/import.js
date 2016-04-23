@@ -19,20 +19,24 @@ client.get("https://api.github.com/emojis", args, function(data, response) {
            }
   };
   
+  var i = 0;
+  
   for (var key in data) {
+    if (i++ > 50) break;
+    
     item.Item.Children.push({ 
       Item : { 
         Template : "Emoji",
         Name : key, 
         Fields : {
-          "__Display Name" : key,
-          "Url" : data[key]
+          "Url" : data[key],
+          "Alt" : "Emoji: " + key,
         } 
       }
     });
   }
 
-  fs.writeFile("items/master/sitecore/content/Home/emoji.item.json", JSON.stringify(item, true), function(err) {
+  fs.writeFile("items/master/sitecore/content/Home/Emoji.item.json", JSON.stringify(item, true), function(err) {
     if (err) {
       return console.log(err);
     }

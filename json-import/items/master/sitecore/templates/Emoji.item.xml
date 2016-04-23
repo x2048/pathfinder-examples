@@ -1,5 +1,6 @@
-<Template>
+<Template Layout.File="~/views/Emoji.html">
     <Section Name="Data">
         <Field Name="Url" Type="Single-line text" Sharing="Shared" />
+        <Field Name="Alt" Type="Single-line text" Sharing="Shared" />
     </Section>
 </Template>

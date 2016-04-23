@@ -9,3 +9,5 @@ Setting up:
   * scc
   
 The result will be a list of emoji icons imported from Github.
+
+This example also shows use of HTML renderings to output simple item structures.
