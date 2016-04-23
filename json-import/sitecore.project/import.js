@@ -19,11 +19,7 @@ client.get("https://api.github.com/emojis", args, function(data, response) {
            }
   };
   
-  var i = 0;
-  
   for (var key in data) {
-    if (i++ > 50) break;
-    
     item.Item.Children.push({ 
       Item : { 
         Template : "Emoji",
