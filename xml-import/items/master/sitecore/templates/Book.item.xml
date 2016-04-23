@@ -1,0 +1,13 @@
+﻿<Template xmlns="http://www.sitecore.net/pathfinder/item">
+    <Section Name="Summary">
+        <Field Name="Title" Type="Single-line text" Sharing="Shared" />
+        <Field Name="Author" Type="Single-line text" Sharing="Shared" />
+        <Field Name="Description" Type="Rich text" Sharing="Shared" />
+    </Section>
+    <Section Name="Details">
+        <Field Name="Id" Type="Single-line text" Sharing="Shared" />
+        <Field Name="Genre" Type="Single-line text" Sharing="Shared" />
+        <Field Name="Price" Type="Single-line text" Sharing="Shared" />
+        <Field Name="PublishDate" Type="Date" Sharing="Shared" />
+    </Section>
+</Template>
