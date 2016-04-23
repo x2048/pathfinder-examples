@@ -1,0 +1,5 @@
+<Template>
+    <Section Name="Data">
+        <Field Name="Url" Type="Single-line text" Sharing="Shared" />
+    </Section>
+</Template>

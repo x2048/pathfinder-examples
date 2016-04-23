@@ -1,0 +1,14 @@
+{
+  "name": "import",
+  "version": "1.0.0",
+  "description": "import data from exxternal sources",
+  "main": "sitecore.project/import.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rest-client": "^1.8.0"
+  }
+}
