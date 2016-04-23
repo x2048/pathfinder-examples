@@ -62,6 +62,7 @@
 
     // package dependencies
     "dependencies": {
-        "Sitecore.Master" : "1.0.0" 
+        "Sitecore.Master" : "1.0.0",
+        "Demo.Habitat.Foundation.Serialization" : "1.0.0"
     } 
 }
