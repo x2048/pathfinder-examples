@@ -1,6 +1,0 @@
-﻿Item:
-  Id: cb5ef5cd-a46d-444f-aa9f-9465766f185d
-  Template: {a87a00b1-e6db-45ab-8b54-636fec3b5523}
-  - Fields:
-    - Field: __Icon
-      Value: applications/32x32/folder_gear.png
