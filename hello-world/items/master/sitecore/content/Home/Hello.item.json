@@ -1,0 +1,11 @@
+﻿{
+    "$schema": "sitecore.project/schemas/item.schema.json",
+    "Item": {
+        "Template": "/sitecore/templates/Sample/Sample Item",
+        "Layout.File" : "~/views/Hello.cshtml",
+        "Fields": {
+            "Title": "Pathfinder",
+            "Text": "Welcome to Sitecore Pathfinder"
+        }
+    }
+}
