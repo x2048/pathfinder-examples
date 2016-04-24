@@ -14,4 +14,34 @@ Assumed development flow is:
    * Later a Sitecore administrator or a developer uses *deploy* project
      to install the package on the configured Sitecore instance.
      
+In this example projects communicate via a Nuget feed:
+
+   * `build.bat` in *develop* project will compile the Nuget package and push
+     it to the default Nuget source.
+     
+   * *deploy* project has a dependency on the produced package in both 
+     `scconfig.json` and `Sitecore.nuspec` files. Pathfinder will download
+     the required packages before compiling and deploying the project.
+     
+By default both projects will interact with the default Nuget feed at http://nuget.org
+     
+In order test the work flow locally use the following setup:
+
+   * Specify a local folder in Nuget.config file:
    
+   ```
+    <?xml version="1.0" encoding="utf-8"?>
+    <configuration>
+      <config>
+        <add key="DefaultPushSource" value="C:\Demo\Nuget" />
+      </config>
+    </configuration>
+   ```
+
+   * Configure Pathfinder to use local folder using environment:
+     set the environment varialbe `nuget-repositories:local` to 
+     the path to the local folder, e.g. `C:\Demo\Nuget`
+   
+   ```
+   set nuget-repositories:local=C:\Demo\Nuget
+   ```
