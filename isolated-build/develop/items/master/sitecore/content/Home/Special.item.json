@@ -1,0 +1,10 @@
+﻿{
+    "$schema": "sitecore.project/schemas/item.schema.json",
+    "Item": {
+        "Template": "/sitecore/templates/Sample/Sample Item",
+        "Fields": {
+            "Title": "Special item",
+            "Text": "I created and packaged this item without running a Sitecore instance"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+﻿{
+    // every project must have a unique id, since the project-unique-id is used to calculate item ids
+    "project-unique-id": "deploy",
+
+    // website directories and host name
+    "website-directory": "c:\\inetpub\\pathfinder\\website",
+    "data-folder-directory": "c:\\inetpub\\pathfinder\\Data",
+    "host-name": "http://pathfinder",
+
+    // user name and password
+    "user-name": "sitecore\\admin",
+    "password": "b",
+
+    // tasks to execute when building
+    "build-project": {
+        "tasks": "restore-packages pack-nuget copy-dependencies copy-package install-package publish-database show-website show-metrics"
+    },
+
+    // package dependencies
+    "dependencies": {
+        "Demo.OfflineProject" : "1.0.0"
+    } 
+}
