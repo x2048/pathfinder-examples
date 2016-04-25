@@ -1,0 +1,19 @@
+{
+    "Layout": {
+        "Devices": [
+            {
+                "Name": "Default",
+                "Layout": "/sitecore/layout/Layouts/Bootstrap",
+                "Renderings": [
+                    {
+                        "Header" : { "Placeholder" : "Page.Body" }
+                    },
+                    {
+                        "QuoteList" : { "Placeholder" : "Page.Body" }
+                    }
+                    
+                ]
+            }
+        ]
+    }
+}

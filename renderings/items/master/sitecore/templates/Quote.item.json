@@ -1,0 +1,20 @@
+{
+    "Template": {
+        "Layout.File" : "~/views/QuoteTemplate.page.html",
+        "Sections": [
+            {
+                "Name": "Quote",
+                "Fields": [
+                    {
+                        "Name": "Quote",
+                        "Type": "Single-Line Text"
+                    },
+                    {
+                        "Name": "Author",
+                        "Type": "Single-Line Text"
+                    }
+                ]
+            }
+        ]
+    }
+}

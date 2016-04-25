@@ -1,0 +1,6 @@
+<Item xmlns="http://www.sitecore.net/pathfinder/item" Template="Quote">
+    <Fields>
+        <Field Name="Author" Value="Leonard Susskind" />
+        <Field Name="Quote" Value="I'm afraid I am a bit of a technophobe - a nineteenth-century man caught in the twenty-first century. But there is one piece of technology that I would especially welcome: a device to automatically balance restaurant tables on all four legs so that they don't rock back and forth." />
+    </Fields>
+</Item>

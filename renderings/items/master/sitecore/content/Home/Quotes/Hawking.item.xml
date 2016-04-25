@@ -1,0 +1,6 @@
+<Item xmlns="http://www.sitecore.net/pathfinder/item" Template="Quote">
+    <Fields>
+        <Field Name="Author" Value="Stephen Hawking" />
+        <Field Name="Quote" Value="Intelligence is the ability to adapt to change." />
+    </Fields>
+</Item>
